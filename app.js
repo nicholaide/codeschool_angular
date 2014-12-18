@@ -4,10 +4,19 @@
     this.product = gem;
   });
   
-  var gem = {
-    name: 'Dodecahedron',
-    price: 2.95,
-    description: '...',
-  }
+  var gem = [
+    {
+      name: 'Dodecahedron',
+      price: 2.95,
+      description: '...',
+      canPurchase: false,
+    },
+    {
+      name: "Pentagonal Gem",
+      price: 5.95,
+      description: "...",
+      canPurchase: false
+    }
+  ];
   
 })();
